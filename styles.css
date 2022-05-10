@@ -1,0 +1,29 @@
+.body {
+  display: flex;
+}
+
+ul {
+  /* removes bullet points and styling */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  /* removes underline */
+}
+
+.header {
+  display: flex;
+}
+
+.left-link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-link {
+  display: flex;
+  justify-content: space-around;
+}
