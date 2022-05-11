@@ -54,6 +54,7 @@ a:active {
   gap: 20px;
   font-size: 18px;
   color: #e5e7eb;
+  justify-content: flex-end;
 }
 
 /* Below header styling */
@@ -100,4 +101,86 @@ button {
   /* right side of the box below header/nav bar */
   display: flex;
   flex-basis: 45%;
+  /* width: 416.16; */
+  height: 235.5;
+  background-color: gray;
+  justify-content: center;
+}
+
+/* Box in the middle of the page */
+
+.middle-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  justify-content: center;
+  align-items: center;
+}
+
+/* box 1 */
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-1 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+}
+
+/* box 2 */
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 30%;
+}
+
+.box-2 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+}
+
+/* box 3 */
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 30%;
+}
+
+.box-3 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+}
+
+/* box 4 */
+.fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-basis: 30%;
+}
+
+.box-4 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
 }
