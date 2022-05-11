@@ -1,6 +1,17 @@
-.body {
+/* .body-box {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+body {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
 }
+
+/* Header styling */
 
 ul {
   /* removes bullet points and styling */
@@ -40,4 +51,32 @@ a:active {
   gap: 20px;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+/* Below header styling */
+
+.below-header {
+  display: flex;
+  background-color: #1f2937;
+
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.left-below-header {
+  display: flex;
+  color: #f9faf8;
+  flex-wrap: wrap;
+  flex-basis: 45%;
+}
+
+.button {
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+}
+
+.right-below-header {
+  display: flex;
+  flex-basis: 45%;
 }
