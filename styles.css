@@ -109,19 +109,23 @@ button {
 
 /* Box in the middle of the page */
 
-.middle-box {
+/* .middle-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
-}
+  flex: 1;
+} */
 
 .boxes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 25% 25%;
 }
 
 .information-header {
+  display: flex;
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
@@ -134,12 +138,15 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 140px;
+  text-align: center;
 }
 
 .box-1 {
-  height: 60px;
-  width: 60px;
-  border: 1px solid black;
+  height: 140px;
+  width: 140px;
+  border-radius: 8px;
+  border: 3px solid black;
 }
 
 /* box 2 */
@@ -147,13 +154,16 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: 30%;
+  /* flex-basis: 30%; */
+  width: 140px;
+  text-align: center;
 }
 
 .box-2 {
-  height: 60px;
-  width: 60px;
-  border: 1px solid black;
+  height: 140px;
+  width: 140px;
+  border-radius: 8px;
+  border: 3px solid black;
 }
 
 /* box 3 */
@@ -161,13 +171,15 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: 30%;
+  width: 140px;
+  text-align: center;
 }
 
 .box-3 {
-  height: 60px;
-  width: 60px;
-  border: 1px solid black;
+  height: 140px;
+  width: 140px;
+  border-radius: 8px;
+  border: 3px solid black;
 }
 
 /* box 4 */
@@ -175,12 +187,13 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  flex-basis: 30%;
+  width: 140px;
+  text-align: center;
 }
 
 .box-4 {
-  height: 60px;
-  width: 60px;
-  border: 1px solid black;
+  height: 140px;
+  width: 140px;
+  border-radius: 8px;
+  border: 3px solid black;
 }
