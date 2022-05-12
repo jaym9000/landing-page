@@ -220,8 +220,16 @@ button {
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
+  width: 55%;
+  margin: 0;
+  padding-top: 50px;
 }
 
 .reference {
   /* figure out text size and use flexbox to move to the flex-end */
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  padding-bottom: 50px;
 }
