@@ -57,6 +57,7 @@ a:active {
   font-size: 18px;
 
   justify-content: flex-end;
+  color: #e5e7eb;
 }
 
 /* Below header styling */
@@ -74,14 +75,13 @@ a:active {
 .left-below-header {
   /* left side of the box below header/nav bar */
   display: flex;
-  color: #f9faf8;
+  color: #e5e7eb;
   flex-wrap: wrap;
   flex-basis: 34%;
 }
 
 .hero-text {
   font-size: 18px;
-  color: #b5bbc8;
 }
 .hero-main {
   font-size: 48px;
@@ -110,14 +110,6 @@ button {
 }
 
 /* Box in the middle of the page */
-
-/* .middle-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;
-  flex: 1;
-} */
 
 .boxes {
   display: flex;
@@ -278,4 +270,14 @@ button {
 .action-text {
   font-size: 20px;
   font-weight: 800;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 30px 0px;
 }
