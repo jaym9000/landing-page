@@ -78,6 +78,7 @@ a:active {
   color: #e5e7eb;
   flex-wrap: wrap;
   flex-basis: 36%;
+  margin-right: 30px;
 }
 
 .hero-text {
